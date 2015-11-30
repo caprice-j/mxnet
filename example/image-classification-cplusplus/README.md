@@ -13,5 +13,7 @@ width=400/>
   ```bash
   mkdir model; python train_mnist.py --model-prefix model/mnist
   make
+  convert -size 28x28 -background "#CCCCCC" -fill "#000000" -font aquafont.ttf caption:" 2 " testx.jpg
+  ./predict
   ```
 
